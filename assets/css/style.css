@@ -44,6 +44,12 @@ h3 {
 
 section {
   padding: 50px 0;
+  
+}
+
+.parthner_section {
+ text-align: center;
+ margin-bottom: -30px;
 }
 
 .main {
@@ -56,8 +62,23 @@ section {
 }
 
 .main .item img {
-  width: 70px;
+  width: 60px;
   margin: 0 0 20px;
+}
+
+
+
+
+ .parthner {
+ margin-top: 40px;
+ margin-bottom: 20px;
+ 
+}
+
+.parthner img {
+  width: 80px;
+  margin: 0 0 20px;
+
 }
 
 .provide {
@@ -91,19 +112,19 @@ section {
   width: 100%;
 }
 
-.container_about{
-    width: 40%;
+.container_about {
+  width: 40%;
 }
-.about_text{
-    margin-top: 10px;
-}
-
-.container_about h3{
-    margin-top: 20px;
+.about_text {
+  margin-top: 10px;
 }
 
-.container_about p{
-    margin-top: -20px;
+.container_about h3 {
+  margin-top: 20px;
+}
+
+.container_about p {
+  margin-top: -20px;
 }
 
 .portrait {
@@ -124,8 +145,6 @@ footer p:last-child {
 footer a {
   color: #fea803 !important;
 }
-
-
 
 @media (max-width: 767px) {
   h1 {
@@ -149,7 +168,7 @@ footer a {
     margin: 0;
   }
 
-  .container_about{
+  .container_about {
     width: 85%;
-}
+  }
 }
