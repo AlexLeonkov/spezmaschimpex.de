@@ -22,6 +22,7 @@ li {
 }
 
 .btn-primary {
+  font-size: small;
   color: #fff !important;
   background-color: #fea803;
   border: 1px solid #fea803;
@@ -38,23 +39,52 @@ li {
   box-shadow: none !important;
 }
 
+.feedbackBtn {
+  border: 1px solid #0391e4 !important;
+  color: #fff !important;
+  background-color: #0391e4 !important;
+}
+
+.feedbackBtn:hover {
+  background-color: transparent !important;
+  border: 1px solid #0391e4 !important;
+  color: #0391e4 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 h3 {
   margin: 0 0 30px;
 }
 
 section {
   padding: 50px 0;
-  
-}
-
-.parthner_section {
- text-align: center;
- margin-bottom: -30px;
 }
 
 .main {
   background-color: aliceblue;
   text-align: center;
+}
+
+.feedback {
+  text-align: center;
+}
+
+.feedback button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.feedback p {
+  margin: 5px;
+}
+.main_img {
+  border-radius: 0px 90px;
+
+  /* padding: 20px; */
+  margin: 0 auto;
+  height: 350px;
+  margin-top: -40px;
 }
 
 .main .col-sm-12 {
@@ -66,30 +96,48 @@ section {
   margin: 0 0 20px;
 }
 
+.parthner_section {
+  text-align: center;
+  margin-bottom: -30px;
+  background-color: aliceblue;
+}
 
-
-
- .parthner {
- margin-top: 40px;
- margin-bottom: 20px;
- 
+.parthner {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: -150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .parthner img {
-  width: 80px;
+  height: 160px;
   margin: 0 0 20px;
-
+  transition: transform 0.2s;
 }
 
-.provide {
+.parthner img:hover {
+  transform: scale(1.2);
+}
+
+/* .provide {
+  background-color: aliceblue;
+} */
+
+.work {
   background-color: aliceblue;
 }
 
 .work img {
-  width: 100%;
+  width: 70%;
   margin: 0 0 20px;
 }
 
+.work_img {
+  text-align: center;
+}
 .form {
   text-align: center;
   background-color: aliceblue;
@@ -102,18 +150,27 @@ section {
   text-align: left;
 }
 
+.info {
+  text-align: center;
+  height: 260px;
+}
+
+.p_introduction {
+  width: 50%;
+  margin: 0 auto;
+}
 /* .imageWrapper {
   text-align: center;
 } */
 
 .about {
   text-align: center;
-  background-color: aliceblue;
+
   width: 100%;
 }
 
 .container_about {
-  width: 40%;
+  width: 50%;
 }
 .about_text {
   margin-top: 10px;
@@ -133,9 +190,15 @@ section {
   width: 20%;
 }
 
+.contact {
+  margin-top: -70px;
+  text-align: center;
+}
 footer {
   /* background-color: aliceblue; */
   padding: 30px 0;
+  text-align: center;
+  background-color: aliceblue;
 }
 
 footer p:last-child {
@@ -171,4 +234,21 @@ footer a {
   .container_about {
     width: 85%;
   }
+
+  .parthner {
+    margin-right: 0;
+  }
+}
+
+/* ----------------------------------------------- */
+
+.datenSchutz {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  margin: auto;
+}
+
+.impressium {
+  text-align: center;
 }
