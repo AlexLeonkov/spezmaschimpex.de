@@ -72,7 +72,7 @@ section {
 
 .feedback button {
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .feedback p {
@@ -130,14 +130,33 @@ section {
   background-color: aliceblue;
 }
 
-.work img {
-  width: 70%;
-  margin: 0 0 20px;
-}
-
 .work_img {
+  margin-bottom: 8px;
   text-align: center;
 }
+
+.work img {
+  width: 70%;
+  margin: 0 0 2px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.work img:hover {
+  transform: translateY(-10px);
+}
+
+.work .work_img p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.work .work_img:nth-child(2) p {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 .form {
   text-align: center;
   background-color: aliceblue;
@@ -152,7 +171,7 @@ section {
 
 .info {
   text-align: center;
-  height: 260px;
+  height: 246px;
 }
 
 .p_introduction {
@@ -201,12 +220,43 @@ footer {
   background-color: aliceblue;
 }
 
+.contact_footer {
+  margin-bottom: 0;
+}
+
+.left_footer {
+  display: grid;
+}
+
 footer p:last-child {
   margin: 0;
 }
 
 footer a {
   color: #fea803 !important;
+}
+
+/* ----------------------------------------------- */
+
+.datenSchutz {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  margin: auto;
+}
+
+.impressium {
+  text-align: center;
+}
+
+.stamp {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
+.zertifikat_1 {
+  width: 50%;
 }
 
 @media (max-width: 767px) {
@@ -249,17 +299,37 @@ footer a {
     margin-bottom: 0;
   }
 
+  .parthner img {
+    transition: none;
+  }
+
+  .parthner img:hover {
+    transform: none;
+  }
+
   /* .feedback p {
     margin: 0;
   } */
 
   .work_img {
-    margin-bottom: 8px;
+    margin-bottom: 32px;
   }
 
   .work img {
     width: 70%;
     margin: 0 0 2px;
+    transition: none;
+  }
+
+  .work img:hover {
+    transform: none;
+  }
+
+
+  .work .work_img:nth-child(4) p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
   }
   .feedback button {
     margin-bottom: 10px;
@@ -268,8 +338,13 @@ footer a {
     width: 90%;
   }
 
+  .myBtn {
+    margin-top: 12px;
+  }
+
   .contact_footer {
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: 12px;
   }
 
   .impressium_footer {
@@ -287,17 +362,12 @@ footer a {
   .datenSchutz {
     width: 90%;
   }
-}
 
-/* ----------------------------------------------- */
+  .stamp {
+    width: 55%;
+  }
 
-.datenSchutz {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 50%;
-  margin: auto;
-}
-
-.impressium {
-  text-align: center;
+  .zertifikat_1 {
+    width: 70%;
+  }
 }
