@@ -22,7 +22,7 @@ li {
 }
 
 .btn-primary {
-  font-size: small;
+  /* font-size: small; */
   color: #fff !important;
   background-color: #fea803;
   border: 1px solid #fea803;
@@ -72,11 +72,11 @@ section {
 
 .feedback button {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .feedback p {
-  margin: 5px;
+  margin: 0px;
 }
 .main_img {
   border-radius: 0px 90px;
@@ -218,6 +218,10 @@ footer a {
     font-size: 1.6rem;
   }
 
+  .btn-primary {
+    font-size: small;
+  }
+
   section {
     padding: 30px 0;
   }
@@ -235,12 +239,45 @@ footer a {
     width: 85%;
   }
 
-  .parthner {
-    margin-right: 0;
+  .p_introduction {
+    width: 85%;
   }
 
+  .parthner {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* .feedback p {
+    margin: 0;
+  } */
+
+  .work_img {
+    margin-bottom: 8px;
+  }
+
+  .work img {
+    width: 70%;
+    margin: 0 0 2px;
+  }
+  .feedback button {
+    margin-bottom: 10px;
+  }
   .main_img {
     width: 90%;
+  }
+
+  .contact_footer {
+    margin-bottom: 0;
+  }
+
+  .impressium_footer {
+    margin-bottom: 12px;
+  }
+
+  .datenSchutz_footer {
+    margin-top: 12px;
   }
 
   .info {
