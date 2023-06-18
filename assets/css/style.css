@@ -66,6 +66,10 @@ section {
   text-align: center;
 }
 
+.main p {
+  font-size: 15px;
+}
+
 .feedback {
   text-align: center;
 }
@@ -152,6 +156,12 @@ section {
 }
 
 .work .work_img:nth-child(2) p {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.work .work_img:nth-child(4) p {
   width: 70%;
   margin: 0 auto;
   margin-top: 10px;
@@ -245,6 +255,10 @@ footer a {
   margin: auto;
 }
 
+.datenSchutz li{
+  font-size: 16px;
+}
+
 .impressium {
   text-align: center;
 }
@@ -326,11 +340,11 @@ footer a {
   }
 
 
-  .work .work_img:nth-child(4) p {
+  /* .work .work_img:nth-child(4) p {
     width: 70%;
     margin: 0 auto;
     margin-top: 10px;
-  }
+  } */
   .feedback button {
     margin-bottom: 10px;
   }
